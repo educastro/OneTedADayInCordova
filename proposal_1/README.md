@@ -1,6 +1,5 @@
 OneTedADayInCordova
 ===================
 
-Repository made for source code from One Ted A Day application. This is an Android application made with Cordova framework.
-
+This proposal was made basically using HTML, CSS and Javascript. There is a menu and some submenu options, each one for one area of interest. There are some videos inside each one of these areas of interests. This is not the final version, basically a first MVP for validations and testing purposes.
 
