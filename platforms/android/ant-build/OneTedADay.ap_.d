@@ -35,6 +35,7 @@
 /Users/eduardocastro/Desktop/cordova/OneTedADayInCordova/platforms/android/assets/www/css \
 /Users/eduardocastro/Desktop/cordova/OneTedADayInCordova/platforms/android/assets/www/entrepreneurship.html \
 /Users/eduardocastro/Desktop/cordova/OneTedADayInCordova/platforms/android/assets/www/fonts \
+/Users/eduardocastro/Desktop/cordova/OneTedADayInCordova/platforms/android/assets/www/health.html \
 /Users/eduardocastro/Desktop/cordova/OneTedADayInCordova/platforms/android/assets/www/img \
 /Users/eduardocastro/Desktop/cordova/OneTedADayInCordova/platforms/android/assets/www/index.html \
 /Users/eduardocastro/Desktop/cordova/OneTedADayInCordova/platforms/android/assets/www/js \

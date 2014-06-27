@@ -13,6 +13,7 @@
         <script type="text/javascript" src="js/app.js"></script>
     </head>
 
+
     <script type="text/javascript" charset="utf-8">
 
              function onLoad()
@@ -30,57 +31,33 @@
                 window.location = "entrepreneurship.html";
              }
 
-             function callCreativityPage()
-             {
-                window.location = "creativity.html";
-             }
-
-             function callHealthPage()
-             {
-                window.location = "health.html";
-             }
-
     </script>
 
     <body onload="onLoad();">
-        
         <div class="headerFromTheApp">
             <header class="bar bar-nav">
                 <h1 class="title">One Ted A Day</h1>
             </header>
         </div>
 
-        <div class="menuFromTheApp">
-            <ul class="table-view">
-                <li class="table-view-cell">
-                    <a class="navigate-right" onclick="callEntrepreneurshipPage()">
-                        <span class="badge">1</span>
-                        Entrepreneurship
-                    </a>
-                </li>
+        <div class="content">
+            <div class="textAboutEntrepreneurship">
+                <div class="content-padded">
+                    <h3>10 things you didn't know about orgasm</h3>
+                    <h5>Author: Mary Roach</h5>
+                </div>
+            </div>
 
-                <li class="table-view-cell">
-                    <a class="navigate-right">
-                        <span class="badge">0</span>
-                        Lifestyle
-                    </a>
-                </li>
+            <div class="videoFromYouTube">
+                <iframe width="360" height="260" src="http://www.youtube.com/embed/7jx0dTYUO5E" frameborder="0" allowfullscreen></iframe>
+            </div>
+                
+            <div class="descriptionText">
+                <p>"Bonk" author Mary Roach delves into obscure scientific research, some of it centuries old, to make 10 surprising claims about sexual climax, ranging from the bizarre to the hilarious. (This talk is aimed at adults. Viewer discretion advised.)</p>
+            </div>
 
-                <li class="table-view-cell">
-                    <a class="navigate-right" onclick="callCreativityPage()">
-                        <span class="badge">1</span>
-                        Education
-                    </a>
-                </li>           
-
-                 <li class="table-view-cell">
-                    <a class="navigate-right" onclick="callHealthPage()">
-                        <span class="badge">0</span>
-                        Health
-                    </a>
-                </li> 
-            </ul>
+                <button class="btn btn-negative">Unlike<span class="badge badge-negative">0</span></button>
+                <button class="btn btn-positive">Like<span class="badge badge-positive">0</span></button>
         </div>
-
     </body>
 </html>
