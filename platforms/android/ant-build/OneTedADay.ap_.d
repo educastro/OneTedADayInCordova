@@ -39,6 +39,7 @@
 /Users/eduardocastro/Desktop/cordova/OneTedADayInCordova/platforms/android/assets/www/img \
 /Users/eduardocastro/Desktop/cordova/OneTedADayInCordova/platforms/android/assets/www/index.html \
 /Users/eduardocastro/Desktop/cordova/OneTedADayInCordova/platforms/android/assets/www/js \
+/Users/eduardocastro/Desktop/cordova/OneTedADayInCordova/platforms/android/assets/www/lifestyle.html \
 /Users/eduardocastro/Desktop/cordova/OneTedADayInCordova/platforms/android/assets/www/css/index.css \
 /Users/eduardocastro/Desktop/cordova/OneTedADayInCordova/platforms/android/assets/www/css/ratchet.css \
 /Users/eduardocastro/Desktop/cordova/OneTedADayInCordova/platforms/android/assets/www/css/style.css \

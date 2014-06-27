@@ -40,6 +40,10 @@
                 window.location = "health.html";
              }
 
+             function callLifestylePage()
+             {
+                window.location = "lifestyle.html";
+             }
     </script>
 
     <body onload="onLoad();">
@@ -60,8 +64,8 @@
                 </li>
 
                 <li class="table-view-cell">
-                    <a class="navigate-right">
-                        <span class="badge">0</span>
+                    <a class="navigate-right" onclick="callLifestylePage()">
+                        <span class="badge">1</span>
                         Lifestyle
                     </a>
                 </li>
@@ -75,7 +79,7 @@
 
                  <li class="table-view-cell">
                     <a class="navigate-right" onclick="callHealthPage()">
-                        <span class="badge">0</span>
+                        <span class="badge">1</span>
                         Health
                     </a>
                 </li> 

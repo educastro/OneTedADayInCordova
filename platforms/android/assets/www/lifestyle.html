@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <meta name="msapplication-tap-highlight" content="no" />
+
+        <link rel="stylesheet" type="text/css" href="css/ratchet.css" />
+
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/ratchet.js"></script>
+        <script type="text/javascript" src="js/app.js"></script>
+    </head>
+
+
+    <script type="text/javascript" charset="utf-8">
+
+             function onLoad()
+             {
+                  document.addEventListener("deviceready", onDeviceReady, true);
+             }
+
+             function onDeviceReady()
+             {
+                  // navigator.notification.alert("PhoneGap is working");
+             }
+
+             function callEntrepreneurshipPage()
+             {
+                window.location = "entrepreneurship.html";
+             }
+
+    </script>
+
+    <body onload="onLoad();">
+        <div class="headerFromTheApp">
+            <header class="bar bar-nav">
+                <h1 class="title">One Ted A Day</h1>
+            </header>
+        </div>
+
+        <div class="content">
+            <div class="textAboutEntrepreneurship">
+                <div class="content-padded">
+                    <h3>The power of introverts</h3>
+                    <h5>Author: Susan Cain</h5>
+                </div>
+            </div>
+
+            <div class="videoFromYouTube">
+                <iframe width="360" height="260" src="http://www.youtube.com/embed/c0KYU2j0TM4" frameborder="0" allowfullscreen></iframe>
+            </div>
+                
+            <div class="descriptionText">
+                <p>In a culture where being social and outgoing are prized above all else, it can be difficult, even shameful, to be an introvert. But, as Susan Cain argues in this passionate talk, introverts bring extraordinary talents and abilities to the world, and should be encouraged and celebrated.</p>
+            </div>
+
+                <button class="btn btn-negative">Unlike<span class="badge badge-negative">0</span></button>
+                <button class="btn btn-positive">Like<span class="badge badge-positive">0</span></button>
+        </div>
+    </body>
+</html>
