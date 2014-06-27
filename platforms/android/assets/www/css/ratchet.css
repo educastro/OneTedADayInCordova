@@ -397,7 +397,8 @@ p {
   color: #fff;
   background-color: #5cb85c;
   border: 10px solid #5cb85c;
-  margin: 100px 0px 0px 160px;
+  margin: 0px 0px 0px 115px;
+  position: absolute;
 
 }
 .btn-positive:active, .btn-positive.active {
@@ -410,7 +411,7 @@ p {
   color: #fff;
   background-color: #d9534f;
   border: 10px solid #d9534f;
-  margin: 100px 0px 0px 450px;
+  margin: 0px 0px 0px 40px;
 }
 .btn-negative:active, .btn-negative.active {
   color: #fff;
@@ -1458,14 +1459,20 @@ select {
 }
 
 .videoFromYouTube {
-  position: relative;
   top: 55px;
-    text-align: center;
+  text-align: center;
+  position: relative;
 
 }
 
-.buttonsLikeAndDislike{
+.buttonsLikeAndDislike {
   top:10px;
+}
+
+.descriptionText {
+  margin: 65px 5px 0px 5px;
+  text-align: justify;
+
 }
 
 
