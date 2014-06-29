@@ -1465,6 +1465,12 @@ select {
 
 }
 
+.fristVideo {
+  top: 8px;
+  text-align: center;
+  position: relative;
+}
+
 .buttonsLikeAndDislike {
   top:10px;
 }

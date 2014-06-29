@@ -176,15 +176,18 @@ function onDeviceReady() {
 						ytPlayerParams.playerVars = this.cfg.playerVars;
 					}
 					
-					this.player = this.createPlayer(this.cfg);
+					this.player = this.createPlayer(this.cfg, entry.title);
 				
 			}
 		},
 		/**
 		* Create the inline player supporting html5 and flash through iframe
 		*/		
-		createPlayer : function(cfg){
+		createPlayer : function(cfg, title){
 			var div = document.getElementById(cfg.block);
+			
+			var li = document.createElement('li');
+			li.innerHTML = '<h3>'+title+'</h3>';
 			
 			var hold = document.createElement('div');
 			hold.className = 'ytPlayer';
@@ -196,6 +199,7 @@ function onDeviceReady() {
 			iframe.setAttribute('frameBorder', '0');
 			iframe.setAttribute('src', 'http://www.youtube.com/embed/'+ytPlayerParams.videoId);//controlbar set
 			
+			hold.appendChild(li);
 			hold.appendChild(iframe);
 			div.insertBefore(hold,div.firstChild);
 			
