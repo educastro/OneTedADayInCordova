@@ -6,6 +6,7 @@
         <param name="android-package" value="org.apache.cordova.App" />
     </feature>
     <name>OneTedADay</name>
+    <icon src="www/img/ted1.jpg" />
     <description>
         A sample Apache Cordova application that responds to the deviceready event.
     </description>

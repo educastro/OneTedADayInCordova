@@ -1,2 +1,2 @@
-/Users/eduardocastro/Desktop/cordova/OneTedADayInCordova/platforms/android/ant-build/AndroidManifest.xml : \
-/Users/eduardocastro/Desktop/cordova/OneTedADayInCordova/platforms/android/AndroidManifest.xml \
+/Users/winstein/Documents/UnB/OneTedADayInCordova/proposal_1/platforms/android/ant-build/AndroidManifest.xml : \
+/Users/winstein/Documents/UnB/OneTedADayInCordova/proposal_1/platforms/android/AndroidManifest.xml \

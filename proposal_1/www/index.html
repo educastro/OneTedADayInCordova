@@ -56,6 +56,15 @@
 
         <div class="menuFromTheApp">
             <ul class="table-view">
+            	<li class="table-view-cell">
+                    <script src="js/app.js" type="text/javascript"></script>
+					<div id="ytThumbs"></div>
+					
+					<script type="text/javascript">
+						ytEmbed.init({'block':'ytThumbs','q':'TEDtalksDirector','type':'user','results':1,'order':'new_first','player':'embed','layout':'full'});
+					</script>
+                </li>
+            
                 <li class="table-view-cell">
                     <a class="navigate-right" onclick="callEntrepreneurshipPage()">
                         <span class="badge">1</span>
@@ -85,6 +94,5 @@
                 </li> 
             </ul>
         </div>
-
     </body>
 </html>
