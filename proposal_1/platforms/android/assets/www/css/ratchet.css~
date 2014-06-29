@@ -539,8 +539,7 @@ input[type="button"] {
   font-size: 17px;
   font-weight: 500;
   line-height: 44px;
-  color: white;
-  background-color: #333;
+  color: #000;
   text-align: center;
   white-space: nowrap;
 }

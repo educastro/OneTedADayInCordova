@@ -334,6 +334,7 @@ h2, .h2 {
 
 h3, .h3 {
   font-size: 24px;
+  color: #444;
 }
 
 h4, .h4 {
@@ -539,7 +540,8 @@ input[type="button"] {
   font-size: 17px;
   font-weight: 500;
   line-height: 44px;
-  color: #000;
+  color: white;
+  background-color: #333;
   text-align: center;
   white-space: nowrap;
 }
@@ -747,7 +749,7 @@ input[type="button"] {
   padding: inherit;
   margin: -11px -65px -11px -15px;
   overflow: hidden;
-  color: inherit;
+  color: #333;
 }
 .table-view-cell > a:not(.btn):active {
   background-color: #eee;
